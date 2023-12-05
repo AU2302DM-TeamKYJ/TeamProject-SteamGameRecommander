@@ -206,7 +206,8 @@ def get_users_game_data(user_id_list, api_key, file_name, testNum=0):
     # print(game_data)
     if len(game_data[user_id]) == 0:
       count_of_response_empty = count_of_response_empty + 1
-    total_data_list.append(
+    else:
+      total_data_list.append(
         game_data)  # append 대신 extend를 사용하면 딕셔너리가 아닌 요소들이 추가됩니다.
     # save_data_incrementally(game_data, "game_data.json")  # 데이터 추가
     n += 1
