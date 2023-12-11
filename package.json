@@ -1,0 +1,14 @@
+{
+  "name": "dm-project",
+  "version": "1.0.0",
+  "description": "아주대학교 23-02 데이터마이닝 팀프로젝트 : 스팀 게임 추천(가제)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "appid": "^1.0.3"
+  }
+}
