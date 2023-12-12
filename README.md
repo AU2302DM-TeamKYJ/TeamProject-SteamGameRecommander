@@ -42,19 +42,19 @@
 ## :open_file_folder: Repository Description
 ### Data Crawling & Preprocessing
 데이터 크롤링은 그 양이 방대하여 각자 환경에 맞춰 코드 변형해 수행하였습니다.
-+ `Extract/...` : UserList와 User-Games Data 추출 코드(정화식)
-+ `SteamCrawling/...` : UserList와 User-Games Data 추출 코드(김태윤)
-+ `UserCrawler.ipynb` : UserList 크롤링과 결과 종합 및 가공 코드(양성호)
-+ `UserOwnedGameCrawler.ipynb` : User-Games Data 추출과 결과 종합 및 가공 코드(양성호)
++ [`ExtractData/...`](https://github.com/AU2302DM-TeamKYJ/TeamProject-SteamGameRecommander/tree/main/ExtractData) : UserList와 User-Games Data 추출 코드(정화식)
++ [`SteamCrawling/...`](https://github.com/AU2302DM-TeamKYJ/TeamProject-SteamGameRecommander/tree/main/SteamCrawling) : UserList와 User-Games Data 추출 코드(김태윤)
++ [`UserCrawler.ipynb`](https://github.com/AU2302DM-TeamKYJ/TeamProject-SteamGameRecommander/blob/main/UserCrawler.ipynb) : UserList 크롤링과 결과 종합 및 가공 코드(양성호)
++ [`UserOwnedGameCrawler.ipynb`](https://github.com/AU2302DM-TeamKYJ/TeamProject-SteamGameRecommander/blob/main/UserOwnedGameCrawler.ipynb) : User-Games Data 추출과 결과 종합 및 가공 코드(양성호)
 ### Clustering
-+ `Clustering/...` : Clustering 및 User Tagging System 관련 코드(정화식)
++ [`Clustering/...`](https://github.com/AU2302DM-TeamKYJ/TeamProject-SteamGameRecommander/tree/main/Clustering) : Clustering 및 User Tagging System 관련 코드(정화식)
 ### Frequent Itemsets & Association Rules(FP-Growth)
-+ `FIAR - FP-Growth.ipynb` : Code for Frequent Itemsets & Association Rules with FP-Growth(양성호)
-+ `Ensemble - FP&Cluster.ipynb` : Code for recommender based on FP-Growth and Cluster(양성호)
++ [`FIAR - FP-Growth.ipynb`](https://github.com/AU2302DM-TeamKYJ/TeamProject-SteamGameRecommander/blob/main/FIAR%20-%20FP-Growth.ipynb) : Code for Frequent Itemsets & Association Rules with FP-Growth(양성호)
++ [`Ensemble - FP&Cluster.ipynb`](https://github.com/AU2302DM-TeamKYJ/TeamProject-SteamGameRecommander/blob/main/Ensemble%20-%20FP-Cluster.ipynb) : Code for recommender based on FP-Growth and Cluster(양성호)
 ### Item-based Collaborative Filtering
-+ `Item-based Collaborative Filtering.ipynb` : Item-based Collaborative Filtering 구현 코드(김태윤)
++ [`Item-based Collaborative Filtering.ipynb`](https://github.com/AU2302DM-TeamKYJ/TeamProject-SteamGameRecommander/blob/main/Item-based%20Collaborative%20Filtering.ipynb) : Item-based Collaborative Filtering 구현 코드(김태윤)
 ### Etc.
-+ `Lab/...` : Folder contains code files written during study and test algorithms
++ [`Lab/...`](https://github.com/AU2302DM-TeamKYJ/TeamProject-SteamGameRecommander/tree/main/Lab) : Folder contains code files written during study and test algorithms
 
 ## :trophy: Project Result
 ### Clustering
